@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhruv Mishra | Creative Portfolio</title>
+  <meta name="description" content="Dhruv Mishra portfolio - VFX Artist, Video Editor, Motion Graphics Designer, and Professional AI User." />
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box} html{scroll-behavior:smooth} body{font-family:Inter,Arial,sans-serif;background:#030712;color:#eaf6ff;overflow-x:hidden} a{text-decoration:none;color:inherit}
+    body:before{content:"";position:fixed;inset:0;background:radial-gradient(circle at 12% 14%,rgba(0,132,255,.35),transparent 26%),radial-gradient(circle at 85% 20%,rgba(0,255,255,.16),transparent 25%),radial-gradient(circle at 50% 90%,rgba(49,46,255,.24),transparent 34%);z-index:-3} body:after{content:"";position:fixed;inset:0;background-image:linear-gradient(rgba(125,211,252,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(125,211,252,.05) 1px,transparent 1px);background-size:48px 48px;z-index:-2;animation:grid 22s linear infinite}@keyframes grid{to{transform:translateY(48px)}}
+    .glow{position:fixed;width:260px;height:260px;border-radius:50%;filter:blur(70px);opacity:.35;z-index:-1}.g1{left:-60px;top:180px;background:#0ea5e9}.g2{right:-70px;bottom:70px;background:#2563eb}
+    header{position:fixed;top:0;width:100%;z-index:99;background:rgba(3,7,18,.7);backdrop-filter:blur(18px);border-bottom:1px solid rgba(56,189,248,.22)} nav{max-width:1180px;margin:auto;padding:16px 22px;display:flex;justify-content:space-between;align-items:center}.logo{font-size:20px;font-weight:900;letter-spacing:2px;color:#7dd3fc;text-shadow:0 0 22px #0ea5e9}.nav{display:flex;gap:20px;list-style:none}.nav a{font-size:14px;color:#c7e9ff}.nav a:hover{color:#67e8f9}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:999px;background:linear-gradient(135deg,#0284c7,#2563eb);box-shadow:0 0 24px rgba(14,165,233,.35);font-weight:800;border:1px solid rgba(125,211,252,.35)}.btn.ghost{background:rgba(15,23,42,.62);border:1px solid rgba(125,211,252,.25)}
+    section{max-width:1180px;margin:auto;padding:100px 22px}.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding-top:120px}.tag{display:inline-block;margin-bottom:18px;padding:8px 14px;border:1px solid rgba(125,211,252,.3);border-radius:999px;background:rgba(14,165,233,.08);color:#bae6fd}.hero h1{font-size:clamp(44px,8vw,96px);line-height:.95;font-weight:1000;letter-spacing:4px;background:linear-gradient(180deg,#fff,#7dd3fc,#2563eb);-webkit-background-clip:text;color:transparent;text-shadow:0 0 50px rgba(14,165,233,.25)}.hero p{max-width:760px;margin:22px auto;color:#cbd5e1;font-size:18px;line-height:1.7}.actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:24px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:52px}.stat,.card,.skill,.contact-card{background:linear-gradient(180deg,rgba(15,23,42,.82),rgba(2,6,23,.75));border:1px solid rgba(125,211,252,.22);border-radius:24px;box-shadow:0 20px 60px rgba(0,0,0,.28),inset 0 0 0 1px rgba(255,255,255,.03)}.stat{padding:20px}.stat b{font-size:26px;color:#7dd3fc}.stat span{display:block;color:#94a3b8;margin-top:6px;font-size:13px}
+    .title{margin-bottom:28px}.title h2{font-size:clamp(30px,5vw,52px);letter-spacing:1px}.title p{margin-top:10px;color:#94a3b8;line-height:1.6}.category{margin:38px 0 18px;display:flex;justify-content:space-between;align-items:end;gap:16px}.category h3{font-size:28px;color:#e0f2fe}.category span{color:#7dd3fc;font-size:13px;border:1px solid rgba(125,211,252,.25);padding:6px 10px;border-radius:999px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.grid.three{grid-template-columns:repeat(3,1fr)}.card{overflow:hidden;transition:.25s}.card:hover{transform:translateY(-7px);border-color:rgba(103,232,249,.55);box-shadow:0 28px 80px rgba(14,165,233,.12)}.media{height:230px;background:#07111f;display:grid;place-items:center;position:relative;overflow:hidden}.media img,.media video,.media iframe{width:100%;height:100%;object-fit:cover;border:0}.media iframe{object-fit:initial}.placeholder{color:#7dd3fc;text-align:center;font-weight:900;letter-spacing:1px}.content{padding:20px}.content h4{font-size:20px;margin-bottom:8px}.content p{color:#a8b9cc;line-height:1.6;font-size:14px}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.chips span{font-size:12px;color:#bae6fd;background:rgba(14,165,233,.12);border:1px solid rgba(125,211,252,.22);padding:6px 9px;border-radius:999px}.open{margin-top:16px;display:inline-block;color:#67e8f9;font-weight:800;font-size:14px}
+    .skills{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.skill{padding:24px}.skill h3{color:#7dd3fc;margin-bottom:10px}.skill p{color:#a8b9cc;line-height:1.6;font-size:14px}.about-wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}.about-box{padding:28px}.about-box p{color:#cbd5e1;line-height:1.75;margin-top:10px}.list{margin-top:18px;display:grid;gap:10px}.list div{padding:12px 14px;border-radius:14px;background:rgba(14,165,233,.08);border:1px solid rgba(125,211,252,.14);color:#dbeafe}
+    .contact{min-height:70vh;display:grid;place-items:center;text-align:center}.contact-card{max-width:620px;width:100%;padding:42px}.email{margin:22px 0;font-size:clamp(22px,4vw,34px);font-weight:900;color:#7dd3fc;word-break:break-all}.footer{text-align:center;color:#64748b;padding:28px;border-top:1px solid rgba(125,211,252,.13)}
+    @media(max-width:900px){.nav{display:none}.stats,.skills,.grid.three{grid-template-columns:1fr 1fr}.about-wrap{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.media{height:220px}}@media(max-width:520px){section{padding:76px 16px}.stats,.skills,.grid.three{grid-template-columns:1fr}.hero h1{font-size:43px}.hero p{font-size:15px}.media{height:200px}}
+  </style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <header><nav><a class="logo" href="#home">DHRUV MISHRA</a><ul class="nav"><li><a href="#home">Home</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#about">About / Skills</a></li><li><a href="#contact">Contact</a></li></ul></nav></header>
+
+  <section id="home" class="hero">
+    <div>
+      <span class="tag">Creative Digital Portfolio</span>
+      <h1>DHRUV<br>MISHRA</h1>
+      <p>VFX Artist • Video Editor • Motion Graphics Designer • Professional AI User. I create cinematic edits, motion graphics, AI visuals, and clean portfolio-ready digital content.</p>
+      <div class="actions"><a class="btn" href="#portfolio">View Portfolio</a><a class="btn ghost" href="#contact">Contact Me</a></div>
+      <div class="stats"><div class="stat"><b>100+</b><span>Projects</span></div><div class="stat"><b>6 Mo</b><span>Job Experience</span></div><div class="stat"><b>4</b><span>Creative Skills</span></div><div class="stat"><b>AI</b><span>Modern Workflow</span></div></div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="title"><h2>Portfolio Work</h2><p>Selected work arranged by category. Media is already embedded inside professional project cards.</p></div>
+
+    <div class="category"><h3>After Effects Projects</h3><span>4 Cards</span></div>
+    <div class="grid">
+      <article class="card"><div class="media"><video controls playsinline preload="metadata"><source src="assets/ae-ai-explainer.mp4" type="video/mp4"></video></div><div class="content"><h4>AI Explainer Video</h4><p>Professional explainer-style animation made for an Artificial Intelligence topic.</p><div class="chips"><span>After Effects</span><span>Motion Graphics</span></div></div></article>
+      <article class="card"><div class="media"><iframe src="https://www.youtube.com/embed/ISlv2K-GdzQ" allowfullscreen></iframe></div><div class="content"><h4>AE YouTube Project 1</h4><p>Motion design/editing showcase embedded from YouTube.</p><div class="chips"><span>AE</span><span>YouTube</span></div><a class="open" href="https://youtu.be/ISlv2K-GdzQ" target="_blank">Open Project →</a></div></article>
+      <article class="card"><div class="media"><iframe src="https://www.youtube.com/embed/N6xqkfefkcY" allowfullscreen></iframe></div><div class="content"><h4>AE YouTube Project 2</h4><p>Creative edit showcase with cinematic visuals and timing.</p><div class="chips"><span>Editing</span><span>Showcase</span></div><a class="open" href="https://youtu.be/N6xqkfefkcY" target="_blank">Open Project →</a></div></article>
+      <article class="card"><div class="media"><iframe src="https://www.youtube.com/embed/09aJ88V5FRU" allowfullscreen></iframe></div><div class="content"><h4>AE YouTube Project 3</h4><p>Additional motion graphics / visual editing work.</p><div class="chips"><span>AE</span><span>Creative Edit</span></div><a class="open" href="https://youtu.be/09aJ88V5FRU" target="_blank">Open Project →</a></div></article>
+    </div>
+
+    <div class="category"><h3>Premiere Pro Work</h3><span>2 Cards</span></div>
+    <div class="grid">
+      <article class="card"><div class="media"><iframe src="https://drive.google.com/file/d/1JcltpUgJ-wGKD7M9kAbGcBrjq29G8ua7/preview" allow="autoplay"></iframe></div><div class="content"><h4>Premiere Pro Edit 1</h4><p>Editing work embedded through Google Drive preview.</p><div class="chips"><span>Premiere Pro</span><span>Video Edit</span></div><a class="open" href="https://drive.google.com/file/d/1JcltpUgJ-wGKD7M9kAbGcBrjq29G8ua7/view" target="_blank">Open Drive →</a></div></article>
+      <article class="card"><div class="media"><iframe src="https://drive.google.com/file/d/1oYovqz25JNCzCDimqlwWOEWlbSIB9PtQ/preview" allow="autoplay"></iframe></div><div class="content"><h4>Premiere Pro Edit 2</h4><p>Second editing project added inside the PR category.</p><div class="chips"><span>Cutting</span><span>Story Flow</span></div><a class="open" href="https://drive.google.com/file/d/1oYovqz25JNCzCDimqlwWOEWlbSIB9PtQ/view" target="_blank">Open Drive →</a></div></article>
+    </div>
+
+    <div class="category"><h3>Photoshop Projects</h3><span>2 Cards</span></div>
+    <div class="grid">
+      <article class="card"><div class="media"><div class="placeholder">Photoshop Design Placeholder</div></div><div class="content"><h4>Poster / Thumbnail Design</h4><p>Placeholder card ready for your Photoshop poster, thumbnail, or banner work.</p><div class="chips"><span>Photoshop</span><span>Design</span></div></div></article>
+      <article class="card"><div class="media"><div class="placeholder">Image Upload Area</div></div><div class="content"><h4>Branding / Creative Design</h4><p>Second Photoshop card ready for replacement with real artwork.</p><div class="chips"><span>Branding</span><span>Creative</span></div></div></article>
+    </div>
+
+    <div class="category"><h3>AI Projects</h3><span>AI Category</span></div>
+    <div class="grid three">
+      <article class="card"><div class="media"><video controls playsinline preload="metadata"><source src="assets/ai-video-1.mp4" type="video/mp4"></video></div><div class="content"><h4>AI Video Work</h4><p>AI-generated / AI-assisted video showcase.</p><div class="chips"><span>AI Video</span></div></div></article>
+      <article class="card"><div class="media"><img src="assets/ai-blue-energy-football.png" alt="AI sports character"></div><div class="content"><h4>AI Sports Character</h4><p>Blue energy character concept artwork.</p><div class="chips"><span>AI Art</span><span>Character</span></div></div></article>
+      <article class="card"><div class="media"><img src="assets/ai-black-panther-portrait.png" alt="AI black panther portrait"></div><div class="content"><h4>Hero Portrait Concept</h4><p>Cinematic superhero-inspired AI visual.</p><div class="chips"><span>AI Poster</span></div></div></article>
+      <article class="card"><div class="media"><img src="assets/ai-venom-rooftop-concept.png" alt="AI venom rooftop concept"></div><div class="content"><h4>Dark Rooftop Concept</h4><p>Moody cinematic AI concept art.</p><div class="chips"><span>Concept Art</span></div></div></article>
+      <article class="card"><div class="media"><img src="assets/ai-spider-portrait-1.png" alt="AI spider portrait"></div><div class="content"><h4>Spider Portrait 1</h4><p>Stylized hero portrait generated with AI.</p><div class="chips"><span>AI Portrait</span></div></div></article>
+      <article class="card"><div class="media"><img src="assets/ai-spider-portrait-2.png" alt="AI spider portrait 2"></div><div class="content"><h4>Spider Portrait 2</h4><p>Alternative cinematic AI portrait design.</p><div class="chips"><span>AI Portrait</span></div></div></article>
+      <article class="card"><div class="media"><img src="assets/ai-streakboii-red-banner.png" alt="AI red banner"></div><div class="content"><h4>Gaming Banner Red</h4><p>AI-assisted channel banner design.</p><div class="chips"><span>Banner</span></div></div></article>
+      <article class="card"><div class="media"><img src="assets/ai-streakboii-yellow-banner.png" alt="AI yellow banner"></div><div class="content"><h4>Gaming Banner Yellow</h4><p>Alternate creator banner concept.</p><div class="chips"><span>Brand Design</span></div></div></article>
+      <article class="card"><div class="media"><img src="assets/ai-streakboii-logo.png" alt="AI logo"></div><div class="content"><h4>Creator Logo</h4><p>Logo / identity visual for creator branding.</p><div class="chips"><span>Logo</span><span>AI</span></div></div></article>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="title"><h2>About / Skills</h2><p>A clean section for recruiter/client view with your main creative tools.</p></div>
+    <div class="about-wrap">
+      <div class="card about-box"><h3>About Dhruv</h3><p>Hi, I'm Dhruv Mishra, a creative digital artist focused on VFX, video editing, motion graphics and AI-generated content. I build visually engaging work using Adobe tools and modern AI workflows.</p><div class="list"><div>100+ creative projects</div><div>6 months job experience</div><div>VFX + AI focused portfolio</div></div></div>
+      <div class="skills"><div class="skill"><h3>After Effects</h3><p>Motion graphics, kinetic typography, explainer animation and compositing.</p></div><div class="skill"><h3>Premiere Pro</h3><p>Video editing, timing, storytelling, reels and long-form cuts.</p></div><div class="skill"><h3>Photoshop</h3><p>Posters, thumbnails, banners, layouts and image design.</p></div><div class="skill"><h3>AI Tools</h3><p>AI visuals, concept art, cinematic images and creative automation.</p></div></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-card"><div class="tag">Contact</div><h2>Let's Work Together</h2><p style="color:#94a3b8;margin-top:10px">For work, collaboration, or project enquiries.</p><div class="email" id="email">dm3944575@gmail.com</div><div class="actions"><button class="btn" onclick="copyEmail()">Copy Email</button><a class="btn ghost" href="mailto:dm3944575@gmail.com">Send Email</a></div></div>
+  </section>
+
+  <div class="footer">© 2026 Dhruv Mishra. Creative Portfolio.</div>
+  <script>
+    function copyEmail(){navigator.clipboard.writeText('dm3944575@gmail.com'); alert('Email copied: dm3944575@gmail.com')}
+    const cards=document.querySelectorAll('.card,.stat,.skill'); const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.style.opacity=1;x.target.style.transform='translateY(0)'}}),{threshold:.12}); cards.forEach(c=>{c.style.opacity=.001;c.style.transform='translateY(18px)';c.style.transition='opacity .6s ease, transform .6s ease';io.observe(c)})
+  </script>
+</body>
+</html>
